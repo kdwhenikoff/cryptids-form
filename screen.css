@@ -3,7 +3,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 body {
@@ -135,3 +135,37 @@ h3.tagline {
     color: white;
     font-size: 120px;
 }
+
+.form {
+  text-transform: uppercase;
+}
+
+legend {
+    font-size: 15px;
+}
+
+.form>.row:last-child {
+    margin-top: 10px;
+}
+
+.form>.row:first-child {
+    margin-bottom: 20px;
+}
+
+input:nth-of-type(1) {
+    background: rgba(255, 255, 255, .5);
+}
+
+input:nth-of-type(2) {
+    background: rgba(255, 255, 255, .5);
+}
+
+input:nth-of-type(3) {
+    background: rgba(255, 255, 255, .5);
+}
+
+input:nth-of-type(3):focus {
+    background: rgba(255, 255, 255, 1);
+}
+}
+
