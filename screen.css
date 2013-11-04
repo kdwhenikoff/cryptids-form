@@ -144,6 +144,26 @@ legend {
     font-size: 15px;
 }
 
+/*input[type=checkbox] {
+    opacity: .1;
+}
+
+input[type=checkbox]:checked {
+    opacity: 1;
+}*/
+
+.col-sm-9:nth-of-type(2) {
+    opacity: .1;
+}
+
+.col-sm-9:nth-of-type(2):checked {
+    opacity: 1;
+}
+
+label:nth-of-type(5):checked {
+    background: blue;
+}
+
 .form>.row:last-child {
     margin-top: 10px;
 }
@@ -153,19 +173,26 @@ legend {
 }
 
 input:nth-of-type(1) {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(173, 216, 230, .1);
 }
 
 input:nth-of-type(2) {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(173, 216, 230, .1);
 }
 
 input:nth-of-type(3) {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(173, 216, 230, .1);
 }
 
 input:nth-of-type(3):focus {
     background: rgba(255, 255, 255, 1);
 }
+
+.form {
+    background-color: rgba(173, 216, 230, .5);
 }
+/*.form .row:nth-of-type(2) {
+    background: rgba(255, 255, 255, .5);
+}*/
+
 
